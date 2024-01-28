@@ -11,6 +11,6 @@
 // Import this package with a blank identifier:
 //
 //	import (
-//		_ "github.com/ebitengine/internal/hideconsole"
+//		_ "github.com/ebitengine/hideconsole"
 //	)
 package hideconsole
