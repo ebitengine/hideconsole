@@ -15,6 +15,7 @@ package hideconsole
 
 import (
 	"fmt"
+	"sync"
 
 	"golang.org/x/sys/windows"
 )
@@ -68,6 +69,10 @@ func hideConsoleWindow() {
 	}
 }
 
+var once sync.Once
+
 func init() {
-	hideConsoleWindow()
+	once.Do(func() {
+		hideConsoleWindow()
+	})
 }
