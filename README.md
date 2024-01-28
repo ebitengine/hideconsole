@@ -1,6 +1,6 @@
 # HideConsole
 
-Package hideconsole is a utility package to hide a console automatically even without `-ldflags "-Hwindowsgui"`.
+Package hideconsole is a utility package to hide a console automatically even without `-ldflags "-Hwindowsgui"` on Windows.
 
 ## Usage
 

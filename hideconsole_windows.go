@@ -2,7 +2,7 @@
 // SPDX-FileCopyrightText: 2024 The Ebitengine Authors
 
 // Package hideconsole is a utility package to hide a console automatically
-// even without `-ldflags "-Hwindowsgui"`.
+// even without `-ldflags "-Hwindowsgui"` on Windows.
 //
 // # Usage
 //
